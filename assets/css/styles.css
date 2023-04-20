@@ -152,10 +152,10 @@ body.dark-theme {
 }
 .profile__perfil {
     width: 100px;
-    height: 110px;
+    height: 100px;
     background: linear-gradient(180deg, 
-                hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
-                hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+                rgb(96, 82, 168) 0%,
+                hsla(224, 54%, 41%, 0.2) 90%);
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -319,7 +319,7 @@ body.dark-theme {
     position: absolute;
     width: 100%;
     height: 100%;
-    bottom: -120%;
+    bottom: -130%;
     left: 0;
     background: linear-gradient(180deg,
                 hsla(var(--hue), 24%, 40%, .3) 0%,
